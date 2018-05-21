@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.entry-post {
+    display: block;
+
+    section {
+        margin: 100px auto;
+    }
+
+    &__title {
+        display: block;
+        margin: 0 0 20px;
+    }
+
+    &__descr {
+        display: block;
+        margin: 0 0 20px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        font-weight: 500;
+
+        & > div {
+
+            &::after {
+                content: '/';
+                margin: 0 6px 0 10px;
+            }
+
+            &:last-child {
+                &::after {
+                    content: none;
+                }
+            }
+
+        }
+
+        &--bottom {
+            margin: 50px 0 0;
+        }
+
+    }
+
+    &__author {
+        margin: 4px 0 0;
+    }
+
+    &__image-block {
+        display: block;
+        margin: 50px auto 70px;
+
+        & > div {
+            width: 940px;
+            margin: 0 auto;
+        }
+
+        .text-notice {
+            margin: 14px auto 0;
+        }
+
+    }
+
+    &__image {
+        display: block;
+        height: 590px;
+        background: #F7F7F7;
+
+        & > img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        background: #F7F7F7;
+        padding: 40px;
+        margin: 0 auto 80px;
+
+        .button {
+            margin: 0 10px;
+        }
+
+    }
+
+    &__content {
+
+        .space {
+            width: 680px;
+        }
+
+        .block {
+            margin-bottom: 30px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+        }
+
+    }
+
+    &__header {
+        margin: 0 0 60px;
+    }
+
+    &__footer {
+        margin: 100px 0 0;
+    }
+
+    &__error {
+        margin: 200px auto;
+        text-align: center;
+    }
+
+}
+
+.block {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.heading {
+    margin: 50px auto 30px;
+}
