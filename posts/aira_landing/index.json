@@ -1,0 +1,19 @@
+{
+    "title": "Вариант главной страницы для Aira",
+    "descr": "",
+    "category": "design",
+    "date": "29 ноября 2017",
+    "image": "/posts/aira_landing/images/index.png",
+    "buttons": [
+        {
+            "title": "Загрузить исходник",
+            "url": "/posts/aira_landing/aira.zip"
+        }
+    ],
+    "body": [
+        {
+            "type": "image",
+            "content": "/posts/aira_landing/images/1.png"
+        }
+    ]
+}
