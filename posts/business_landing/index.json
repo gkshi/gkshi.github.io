@@ -1,0 +1,48 @@
+{
+    "title": "Business landing #1",
+    "descr": "Полностью адаптивный и кроссбраузерный лендинг бизнес-тематики, в котором нет ничего лишнего.",
+    "category": "websites",
+    "date": "10 ноября 2015",
+    "image": "/posts/business_landing/images/index.png",
+    "buttons": [
+        {
+            "title": "Демонстрация",
+            "url": "http://glanding1.ucoz.net/"
+        },
+        {
+            "title": "Вопросы/ответы",
+            "url": "https://utemplate.pro/shop/571/desc/biznes-lending"
+        },
+        {
+            "title": "Загрузить",
+            "url": "http://ugarts.pro/files/business_landing_ugarts.zip"
+        }
+    ],
+    "body": [
+        {
+            "type": "info",
+            "content": "Шаблон доступен только для uCoz"
+        },
+        {
+            "type": "heading",
+            "content": "Особенности:"
+        },
+        {
+            "type": "list",
+            "content": [
+                "HTML5 разметка",
+                "CSS3 анимация",
+                "Кроссбраузерность",
+                "Иконки FontAwesome 4.4.0"
+            ]
+        },
+        {
+            "type": "gallery",
+            "content": [
+                "/posts/business_landing/images/1.png",
+                "/posts/business_landing/images/2.png",
+                "/posts/business_landing/images/3.png"
+            ]
+        }
+    ]
+}
