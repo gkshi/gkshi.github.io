@@ -1,0 +1,19 @@
+{
+    "title": "Memoji - игра для развития памяти",
+    "descr": "Есть 6 пар карточек, перевернутых рубашкой вверх. За одну минуту нужно найти все пары карточек с одинаковыми картинками.",
+    "category": "javascript",
+    "date": "14 апреля 2018",
+    "image": "/posts/memoji/images/index.png",
+    "buttons": [
+        {
+            "title": "Загрузить архив",
+            "url": "/posts/memoji/memoji.zip"
+        }
+    ],
+    "body": [
+        {
+            "type": "",
+            "content": ""
+        }
+    ]
+}
