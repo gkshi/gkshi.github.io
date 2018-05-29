@@ -3,7 +3,7 @@
     "descr": "Сыграйте в города с ботом. Названные города ищутся с помощью API Яндекс.Карт, после чего отмечаются на карте. Бот имеет ограниченный словарный запас.",
     "category": "javascript",
     "date": "13 февраля 2018",
-    "image": "/posts/cities_game/images/index.png",
+    "image": "/posts/cities_game/images/index.jpg",
     "buttons": [
         {
             "title": "Демонстрация",

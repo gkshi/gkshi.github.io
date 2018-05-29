@@ -3,7 +3,7 @@
     "descr": "Есть 6 пар карточек, перевернутых рубашкой вверх. За одну минуту нужно найти все пары карточек с одинаковыми картинками.",
     "category": "javascript",
     "date": "14 апреля 2018",
-    "image": "/posts/memoji/images/index.png",
+    "image": "/posts/memoji/images/index.jpg",
     "buttons": [
         {
             "title": "Загрузить архив",

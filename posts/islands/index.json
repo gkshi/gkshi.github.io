@@ -3,7 +3,7 @@
     "descr": "На входе массив с координатами суши и воды. Считаем количество островов.",
     "category": "javascript",
     "date": "12 февраля 2018",
-    "image": "/posts/islands/images/index.png",
+    "image": "/posts/islands/images/index.jpg",
     "buttons": [
         {
             "title": "Демонстрация",
