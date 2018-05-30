@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- meta tags -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="George Shinkarev">
+
+    <!-- favicons -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+    <title>Шинкарев - Города</title>
+
+    <!-- Стили модальных окон -->
+    <link rel="stylesheet/less" type="text/css" href="css/remodal.css"/>
+    <link rel="stylesheet/less" type="text/css" href="css/remodal-default-theme.css"/>
+
+    <!-- styles -->
+    <link rel="stylesheet/less" type="text/css" href="less/style.less"/>
+
+    <!-- scripts -->
+    <script>
+        less = {
+            env: "development",
+            async: false,
+            fileAsync: false,
+            rootpath: ":/",
+        };
+    </script>
+
+    <script type="text/javascript" src="js/less.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="intro">
+
+            <div>
+                <h1>Игра в города онлайн</h1>
+            </div>
+
+            <div class="text-right">
+                <a href="#" data-remodal-target="statistics">Смотреть статистику</a>
+                <a href="">Начать заново</a>
+                <a href="#" class="js-end-game-link">Закончить игру</a>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+        <div class="left">
+
+            <section class="grow">
+                <div class="intro">
+
+                    <div>
+                        <form id="user_form" class="js-user-form" action="/">
+                            <div class="field">
+                                <label for="user_field">
+                                    <span class="js-begin-text">Введите город для начала игры</span>
+                                    <span class="js-in-process-text" hidden>Введите город на букву <strong class="uppercase js-user-letter">А</strong></span>
+                                </label>
+                                <input type="text" class="js-user-field" id="user_field" placeholder="" autocomplete="off" tabindex="1" autofocus>
+                                <button type="submit" class="button button--dark">
+                                    <i class="icon icon--send"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="user-previous-block">
+                        <span>Ваш предыдущий город: </span>
+                        <strong class="js-user-previous">-</strong>
+                    </div>
+
+                    <div class="messages js-messages">
+                        <div class="message message--red" data-type="not_found" hidden>Город <strong data-message-data="true"></strong> не найден.</div>
+                        <div class="message message--red" data-type="wrong_letter" hidden>Город должен начинаться на букву <strong class="uppercase" data-message-data="true"></strong>.</div>
+                        <div class="message message--red" data-type="already_named" hidden>Город <strong data-message-data="true"></strong> уже был назван.</div>
+                        <div class="message message--red" data-type="empty" hidden>Сначала введите город.</div>
+                        <div class="message message--green" data-type="win" hidden>Вы победили. Соперник больше не знает городов.<br/> <a href="#" data-remodal-target="statistics">Смотреть статистику</a> или <a href="">начать заново</a>.</div>
+                        <div class="message message--red" data-type="lose" hidden>Вы проиграли. <br/> <a href="#" data-remodal-target="statistics">Смотреть статистику</a> или <a href="">начать заново</a>.</div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section>
+                <div class="intro">
+
+                    <div class="field">
+                        <label for="bot_field">
+                            <span class="js-begin-text">Здесь будет город соперника</span>
+                            <span class="js-in-process-text" hidden>Город соперника: <strong class="js-bot-city"></strong></span>
+                        </label>
+                        <input type="text" class="js-bot-field" id="bot_field" readonly>
+                    </div>
+
+                    <div class="user-previous-block">
+                        <span>Предыдущий город соперника: </span>
+                        <strong class="js-bot-previous">-</strong>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+        <section class="right">
+            <div class="intro">
+                <div class="map map--empty js-map">
+                    <div class="map__label button">Здесь будут отображаться названные города</div>
+                    <div class="map__block" id="map"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="intro text-right">
+            <a href="https://github.com/gkshi/cities" target="_blank">Github</a>
+        </div>
+    </footer>
+
+    <div class="remodal" data-remodal-id="statistics" data-remodal-options="hashTracking: false">
+        <button data-remodal-action="close" class="remodal-close"></button>
+        <h1>Статистика</h1>
+
+        <div class="stats">
+
+            <div class="message message--green js-stats-win" hidden>
+                Вы победили. Соперник больше не знает городов.<br/> <a href="">Начать заново</a>.
+            </div>
+            <div class="message message--red js-stats-lose" hidden>
+                Вы проиграли. <a href="">Начать заново</a>.
+            </div>
+
+            <div class="stat">
+                <div class="stat__intro">
+                    <div>
+                        <strong>Ход:</strong> <span class="js-stats-turn">0</span>
+                    </div>
+                    <div>
+                        <strong>Вы назвали городов:</strong> <span class="js-stats-user">0</span>
+                    </div>
+                    <div>
+                        <strong>Противник назвал городов:</strong> <span class="js-stats-bot">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <textarea id="stats" cols="30" rows="8" readonly></textarea>
+            </div>
+        </div>
+
+        <button data-remodal-action="cancel" class="remodal-confirm">Закрыть</button>
+
+    </div>
+
+    <!-- jQuery для сторонней библиотеки модальных окон -->
+    <script type="text/javascript" src="js/jquery-v1.11.1.js"></script>
+    <script type="text/javascript" src="js/remodal.min.js"></script>
+
+    <!--<script type="text/javascript" src="js/speech.js"></script>-->
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/bot.js"></script>
+
+    <script src="//api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script>
+        ymaps.ready(function () {
+            GAME.MAP = new ymaps.Map("map", {
+                center: [35.76, 10.64],
+                zoom: 1
+            });
+            GAME.MAP.controls.add('smallZoomControl');
+        });
+    </script>
+
+</body>
+
+</html>

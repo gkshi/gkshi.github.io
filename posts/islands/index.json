@@ -1,23 +1,8 @@
 {
     "title": "Алгоритм подсчета островов на карте",
-    "descr": "На входе массив с координатами суши и воды. Считаем количество островов.",
-    "category": "javascript",
-    "date": "12 февраля 2018",
-    "image": "/posts/islands/images/index.jpg",
-    "buttons": [
-        {
-            "title": "Демонстрация",
-            "url": "http://gkshi.ucoz.net/islands"
-        },
-        {
-            "title": "Github",
-            "url": "https://github.com/gkshi/islands"
-        }
-    ],
-    "body": [
-        {
-            "type": "",
-            "content": ""
-        }
-    ]
+    "image": "/posts/islands/index.jpg",
+    "frame": "/posts/islands/demo/index.html",
+    "buttons": {
+        "github": "https://github.com/gkshi/islands"
+    }
 }

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.field {
+    display: block;
+    position: relative;
+
+    & > label {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 24px;
+        font-family: 'Yandex Sans Text Web', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #465164;
+    }
+
+    & > input[type="text"] {
+        display: block;
+        width: 100%;
+        background: #F4F4F4;
+        color: #465164;
+        border: none;
+        padding: 19px 100px 20px 24px;
+        font-family: 'Yandex Sans Text Web', sans-serif;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 400;
+        border-radius: 2px;
+        outline: none;
+
+        &:focus {
+
+        }
+
+        &:hover {
+
+        }
+
+        &:active {
+
+        }
+
+        &[readonly] {
+            cursor: default;
+        }
+
+    }
+
+    & > textarea {
+        display: block;
+        width: 100%;
+        background: #F4F4F4;
+        color: #465164;
+        border: none;
+        padding: 20px;
+        font-family: 'Yandex Sans Text Web', sans-serif;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+        border-radius: 2px;
+        outline: none;
+
+        &:focus {
+
+        }
+
+        &:hover {
+
+        }
+
+        &:active {
+
+        }
+    }
+
+    & > button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 2px 2px 0;
+        height: 100%;
+    }
+
+}

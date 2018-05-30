@@ -1,47 +1,8 @@
 {
     "title": "Selfline",
-    "descr": "Чистый и компактный код даёт минимальное время загрузки сайта. Плавная анимация будет радовать глаз каждого посетителя. Responsive-шаблон подстроится под любое разрешение вашего гаджета. Юзабилити на высоте: панель поиска и меню не мешаются и не занимают место.",
-    "category": "websites",
-    "date": "29 августа 2016",
-    "image": "/posts/selfline/images/index.jpg",
-    "buttons": [
-        {
-            "title": "Демонстрация",
-            "url": "http://selfline.ucoz.net/"
-        },
-        {
-            "title": "Приобрести",
-            "url": "https://utemplate.pro/shop/459/desc/selfline"
-        }
-    ],
-    "body": [
-        {
-            "type": "info",
-            "content": "Шаблон доступен только для uCoz"
-        },
-        {
-            "type": "heading",
-            "content": "Особенности:"
-        },
-        {
-            "type": "list",
-            "content": [
-                "HTML5 разметка",
-                "CSS3 анимация",
-                "Кроссбраузерность",
-                "Google шрифты",
-                "Иконки FontAwesome 4.2.0",
-                "Выпадающая панель поиска и меню",
-                "Модальные окна и галерея"
-            ]
-        },
-        {
-            "type": "gallery",
-            "content": [
-                "/posts/selfline/images/1.png",
-                "/posts/selfline/images/2.png",
-                "/posts/selfline/images/3.png"
-            ]
-        }
-    ]
+    "image": "/posts/selfline/index.jpg",
+    "frame": "http://selfline.ucoz.net",
+    "buttons": {
+        "buy": "https://utemplate.pro/shop/459/desc/selfline"
+    }
 }

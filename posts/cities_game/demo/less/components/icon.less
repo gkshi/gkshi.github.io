@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+
+    &:before {
+        content: '';
+        display: block;
+    }
+
+    &--send {
+        padding: 0 0 0 1px;
+
+        &:before {
+            width: 20px;
+            height: 20px;
+            background: url('../images/send.svg') no-repeat center;
+            background-size: contain;
+        }
+    }
+
+}

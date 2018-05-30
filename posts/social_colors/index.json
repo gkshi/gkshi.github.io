@@ -1,19 +1,5 @@
 {
     "title": "Цвета социальных сетей",
-    "descr": "Страница со списком соц. сетей и их цветами в трех вариациях: светлый, темный и оригинальный.",
-    "category": "useful",
-    "date": "27 сентября 2016",
-    "image": "/posts/social_colors/images/index.jpg",
-    "buttons": [
-        {
-            "title": "Демонстрация",
-            "url": "http://ugarts.pro/social_colors/"
-        }
-    ],
-    "body": [
-        {
-            "type": "",
-            "content": ""
-        }
-    ]
+    "image": "/posts/social_colors/index.jpg",
+    "frame": "http://ugarts.pro/social_colors"
 }

@@ -1,19 +1,8 @@
 {
     "title": "Лендинг для Aira",
-    "descr": "Вариант посадочной страницы для компании по формированию комфортной городской среды aira.ru",
-    "category": "design",
-    "date": "29 ноября 2017",
-    "image": "/posts/aira_landing/images/index.jpg",
-    "buttons": [
-        {
-            "title": "Загрузить исходник",
-            "url": "/posts/aira_landing/aira.zip"
-        }
-    ],
-    "body": [
-        {
-            "type": "image",
-            "content": "/posts/aira_landing/images/1.jpg"
-        }
-    ]
+    "image": "/posts/aira_landing/index.jpg",
+    "frame": "/posts/aira_landing/demo/index.html",
+    "buttons": {
+        "download": "https://yadi.sk/d/RfwdzgcE3WiT45"
+    }
 }
