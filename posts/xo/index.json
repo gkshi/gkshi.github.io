@@ -1,0 +1,9 @@
+{
+    "title": "Крестики-нолики онлайн",
+    "image": "/posts/xo/index.jpg",
+    "frame": "/posts/xo/demo/index.html",
+    "buttons": {
+        "download": "/posts/xo/xo.zip",
+        "github": "https://github.com/gkshi/xo"
+    }
+}
