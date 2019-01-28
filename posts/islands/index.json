@@ -1,8 +1,0 @@
-{
-    "title": "Алгоритм подсчета островов на карте",
-    "image": "/posts/islands/index.jpg",
-    "frame": "/posts/islands/demo/index.html",
-    "buttons": {
-        "github": "https://github.com/gkshi/islands"
-    }
-}
