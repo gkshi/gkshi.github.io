@@ -1,9 +1,0 @@
-{
-    "title": "Игра в города",
-    "image": "/posts/cities_game/index.jpg",
-    "frame": "/posts/cities_game/demo/index.html",
-    "buttons": {
-        "download": "/posts/cities_game/cities-master.zip",
-        "github": "https://github.com/gkshi/cities"
-    }
-}

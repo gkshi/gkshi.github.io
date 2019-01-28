@@ -1,8 +1,0 @@
-{
-    "title": "Memoji - игра для развития памяти",
-    "image": "/posts/memoji/index.jpg",
-    "frame": "/posts/memoji/demo/index.html",
-    "buttons": {
-        "download": "/posts/memoji/memoji.zip"
-    }
-}
